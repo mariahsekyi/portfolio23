@@ -1,0 +1,25 @@
+.description{
+    padding-top: 8em;
+}
+#profile{
+    height:20em;
+    width: 15em;
+}
+.about-nav{
+    padding-top:2em;
+    padding-bottom: 5em;
+    font-family: 'Karla', sans-serif;
+}
+.about-nav a:link, a:visited{
+    text-decoration: none;
+    color:#4c5a0d;
+}
+.description h1, .main-content h1{
+    font-family: 'Inconsolata', monospace;
+    color: #4c5a0d;
+}
+.description p, .main-content p{
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+}
+

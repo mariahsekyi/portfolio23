@@ -1,0 +1,30 @@
+.nav-bar{
+    background-color: #f6f1ee;
+    position: fixed;
+    width: 100%;
+    height:4em;
+    font-family: 'Inconsolata', monospace;
+    color: #4c5a0d;
+}
+#name{
+    padding-top:.3em;
+    font-weight: 600;
+    font-size: 25px;
+}
+.nav-buttons{
+    padding-top: 1em;
+}
+#linkedin{
+    width: 2em;
+    height: 2em;
+}
+nav > .col-8{
+    padding-left: 2em;
+}
+.nav-bar a:link, a:visited{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+}
