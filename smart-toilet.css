@@ -14,6 +14,8 @@ a:link, a:visited{
 .main-content{
     padding-top: 14em;
     padding-bottom: 10em;
+    background-color: #f6f1ee;
+    margin-bottom: 5em;
 }
 .title h1{
     font-family: 'Inconsolata', monospace;
@@ -21,10 +23,9 @@ a:link, a:visited{
     padding-bottom: 1.5rem;
     color: #4c5a0d;
 }
-/* p{
-    font-family: 'Karla', sans-serif;
-    
-} */
+.title{
+   margin-left: 6em;
+}
 .main-content p{
     font-size:1.5em;
 }
@@ -36,13 +37,84 @@ a:link, a:visited{
 #summary{
     text-align: center;
 }
-h2, h4{
+h1, h2, h3{
+    font-family: 'Inconsolata', monospace;
+   
+}
+h4{
     font-family: 'Inconsolata', monospace;
     text-decoration: underline;
 }
 #description{
     text-align: center;
+    margin-bottom: 3em;
 }
 #description .col-3{
     margin: 3em;
 }
+#card-sort img{
+    height: 15em;
+    width: 25em;
+    position: relative;
+    bottom:9em;
+    box-shadow: 2px 2px 6px #929292;
+}
+.page p, h5, h6{
+    font-family: 'Karla', sans-serif;
+}
+h5, h6{
+    margin: 1em 1em 1em 0em;
+    padding-left: 1em;
+    border-left: .3rem solid #4c5a0d;
+}
+#survey img{
+    position: relative;
+    bottom:1em;
+    height: 12em;
+    width:25em;
+    box-shadow: 2px 2px 6px #929292;
+}
+#insight-desc, #biometrics, #uses, #reliability,
+ #apply-desc, #story-map, #feature-desc{
+    margin-top: 4em;
+}
+
+h4{
+    padding-top:1em;
+}
+.personas{
+    height: 12em;
+    width:  25em;
+    margin-top:1.5em;
+}
+.persona-desc{
+    margin-top: 3em;
+}
+.maps{
+    height:15em;
+    width: 30em;
+    margin-bottom:3em;
+}
+.sketches{
+}
+/* #brainstorm-desc{
+    margin-bottom: 8em;
+} */
+
+#paper-sketch{
+    margin-bottom:4em;
+    height: 20em;
+    width: 25em;
+}
+#lofi-2{
+    margin-top:18em;
+    margin-bottom: 4em;
+    height: 15em;
+    width: 20em;
+}
+#lofi-3{
+    height: 15em;
+    width: 20em;
+}
+
+
