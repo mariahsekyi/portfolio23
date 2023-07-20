@@ -139,6 +139,9 @@ h4{
     left: 42em;
     bottom:16em;
 }
-#toilet-nav{
+ul{
     list-style-type: none;
+}
+#toilet-nav{
+    
 }
