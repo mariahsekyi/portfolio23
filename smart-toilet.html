@@ -99,7 +99,27 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3"></div>
+                    <div class="col-3" id="toilet-nav">
+                        <ul>
+                            <li>Overview</li>
+                            <li>Research Methods</li>
+                            <li>Insights</li>
+                            <li>Applying Research Insights</li>
+                                <ul>
+                                    <li>User Personas</li>
+                                    <li>User Stories & Journey Maps</li>
+                                </ul>
+                            <li>Prototying and Feature Concepts</li>
+                                <ul>
+                                    <li>Low Fidelity</li>
+                                    <li>Mid Fidelity</li>
+                                </ul>
+                            <li>Future Improvements</li>
+                            <li>The Solution</li>
+                            <li>Reflection</li>
+                            <li>Appendix</li>
+                        </ul>
+                    </div>
                     <div class="col-6">
                     <h2>The Research Methods</h2>
                     <p>There was a lot we needed to learn about our users for this project, such as 
@@ -147,7 +167,8 @@
                     </div>
                 </div>
                 <div class="row" id="insight-desc">
-                    <div class="col-3"></div>
+                    <div class="col-3" id="nav">
+                    </div>
                     <div class="col-6">
                         <h1>Research Insights</h1>
                         <p>There was a high volume of results to sort through, so I sorted the responses into four categories to make the 
@@ -300,47 +321,88 @@
                 </div>
                 <div class="row" id="feature-desc">
                     <div class="col-3"></div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <h1>Prototyping Feature Concepts</h1>
                         <p>For this project each student only had time to focus on one primary feature concept. I chose to create a simple 
                             prototype that concentrated on how a smart toilet app would integrate with other health apps (such as diabetes 
                             tracking apps, Apple Health, etc).
                         </p>
-                        <h2>Brainstorming and Low Fidelity</h2>
-                        <h5 id="brainstorm-desc">First, we began with brain storming exercises as a class. We were given prompts for designing specific 
-                            aspects of the app. 
+                        <h2>Brainstorming and Low Fidelity Prototypes</h2>
+                        <h5 id="brainstorm-desc">I began with basic brainstorming and rough sketches of potential designs and features 
                         </h5>
-                       
+                        <p>I experimented with different versions of how health data would be displayed, what notifications might look like, and 
+                            the overall layout of a smart toilet mobile app.
+                        </p>
+                        <h5>Next was creating a low fidelity mock up.</h5>
+                            <p>During this prototyping process I conducted user testing for each mock up to inform future iterations. 
+                            </p>
+                            <p>I recieved positive feedback on the overall application, however the evaluations revealed issues 
+                                in the layout and navigation. </p>
+                    </div>
+                    <div class="col-4" id="adjust">
+                        <div id="color-block">
+                            <img src="imgs/brainstorming.jpg" alt="brainstorming sketches" class="sketches" id="paper-sketch">
+                            <img src="imgs/usertest1health.jpg" alt="Low fidelity mock up/user test" class="sketches" id="lofi-2">
+                            <img src="imgs/usertest2.jpg" alt="Low fidelity mock up/user test" class="sketches" id="lofi-3">
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-3"></div>
-                    <div class="col-4">
-                        <img src="imgs/brainstorming.jpg" alt="brainstorming sketches" class="sketches" id="paper-sketch">
-                        <h5>Next was creating a rough low fidelity design of how the smart toilet app might look and interact with its other health 
-                            app counterparts. These first 3 panels low fidelity mock ups of </h5>
-                            <ol>
-                                <li>The smart toilet home page</li>
-                                <li>A specific biometric category page that displays data and who the user is sharing their data with</li>
-                                <li>A page for adding health data from the smart toilet app to the Apple Health App</li>
-                            </ol>
-                            <p>The dots along the page are from user testing done by a couple of users indicating where they would click to find 
-                            certain information. 
-                            </p>
-                        
-                        <h5>The next 3 panels are</h5>
-                            <ol>
-                                <li>The smart toilet home page</li>
-                                <li>Another biometric category page</li>
-                                <li>A page for adding the smart toilet health data to the Apple Reminders app</li>
-                            </ol>
-                           
+                    <div class="col-6">
+                        <h5>Some of the common problems we found during the testing were:</h5>
+                        <p>Users wanted the main page to include more data visualization, instead of lots of buttons 
+                            that navigate elsewhere.
+                        </p>
+                        <p>Users also wanted a clearer depiction of what apps they were sharing data with, and 
+                            a clearer indication of how to access more information about data sharing. 
+                        </p>
+                        <p>When being asked to naviage around the app, many users experienced confusion about what 
+                            is and is not clickable, as well as what buttons would do. 
+                        </p>
                     </div>
-                    <div class="col-4" id="adjust">
-                        <img src="imgs/usertest1health.png" alt="Low fidelity mock up/user test" class="sketches" id="lofi-2">
-                        <img src="imgs/usertest2.png" alt="Low fidelity mock up/user test" class="sketches" id="lofi-3">
-                       
-
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h2>Mid Fidelity Prototypes</h2>
+                        <p>I made my mid fidelity prototypes using Figma, which is an application that allows 
+                            for interactivity in its wireframes. 
+                        </p>
+                        <p>My first mid-fidelity prototype flow (left) was focused on the smart toilet's interaction with Apple 
+                            Health app. The user would send their hydration data statistics to the Apple Health app in order 
+                            to consolidate their data into one space.  
+                        </p>
+                        <p>My second mid-fidelity prototype flow (right) was focused on the smart toilet's ineraction with the 
+                            Apple Reminders app. In this flow, the user receives a warning notification about a biometric level, 
+                            receives more information about that specific statistic, and sets a reminder for the user to monitor or 
+                            alleviate the issue. 
+                        </p>
+                    </div>
+                </div>
+                <div class="row" id="color-block2">
+                    <div class="col">
+                        <img src="imgs/Prototyping.png" alt="Prototyping and notes" id="mid-fid">
+                        <img src="imgs/Prototyping1.png" alt="prototyping 2 and notes" id="mid-fid1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                        <div class="col-6">
+                            
+                            <p>Unfortunately, this was the final stage of my prototyping, as this was an extra portion 
+                                of the research project. 
+                            </p>
+                            <p>The notes on and around my mid-fidelity prototype explain further steps and interactions 
+                                that would further the design in the event of me finishing it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-8">
+                        <h1>Future Improvements</h1>
                     </div>
                 </div>
             </section>

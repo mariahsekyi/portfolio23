@@ -1,6 +1,5 @@
 .nav-bar{
     background-image: linear-gradient(#f28093,#f49445);
-    box-shadow: 0px 2px 4px #929292;
     z-index: 10;
 }
 .nav-bar a:link, .nav-bar a:visited{
@@ -21,7 +20,6 @@ a:link, a:visited{
     font-family: 'Inconsolata', monospace;
     font-size: 4em;
     padding-bottom: 1.5rem;
-    color: #4c5a0d;
 }
 .title{
    margin-left: 6em;
@@ -65,7 +63,7 @@ h4{
 h5, h6{
     margin: 1em 1em 1em 0em;
     padding-left: 1em;
-    border-left: .3rem solid #4c5a0d;
+    border-left: .3rem solid #f49445;
 }
 #survey img{
     position: relative;
@@ -78,7 +76,6 @@ h5, h6{
  #apply-desc, #story-map, #feature-desc{
     margin-top: 4em;
 }
-
 h4{
     padding-top:1em;
 }
@@ -95,26 +92,53 @@ h4{
     width: 30em;
     margin-bottom:3em;
 }
-.sketches{
-}
-/* #brainstorm-desc{
-    margin-bottom: 8em;
-} */
-
 #paper-sketch{
-    margin-bottom:4em;
-    height: 20em;
-    width: 25em;
+    height: 14em;
+    width: 18em;
+    position: relative;
+    top: 1em;
+    right: 1em;
 }
 #lofi-2{
-    margin-top:18em;
-    margin-bottom: 4em;
-    height: 15em;
-    width: 20em;
+    height: 17em;
+    width: 23em;
+    position: relative;
+    bottom: 3em;
+    left: 8em;
 }
 #lofi-3{
     height: 15em;
     width: 20em;
+    position: relative;
+    bottom: 10em;
+    right:4em;
 }
-
-
+#color-block{
+    background-color: #f28093;
+    height: 30em;
+    width:25em;
+    position: relative;
+    left: 4em;
+    top: 3em;
+}
+#color-block2{
+    background-color: #f28093;
+    height:23em;
+    margin-top:2em;
+    margin-bottom: 6em;
+}
+#mid-fid{
+    width: 45em;
+    position:relative;
+    bottom:2em;
+    left: 1em;
+}
+#mid-fid1{
+    width:45em;
+    position:relative;
+    left: 42em;
+    bottom:16em;
+}
+#toilet-nav{
+    list-style-type: none;
+}

@@ -24,7 +24,6 @@
 }
 .nav-bar{
     background-image: linear-gradient(#f28093,#f49445);
-    box-shadow: 0px 2px 4px #7090B0;
 }
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
