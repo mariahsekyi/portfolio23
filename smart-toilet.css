@@ -35,12 +35,11 @@ a:link, a:visited{
 #summary{
     text-align: center;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Inconsolata', monospace;
    
 }
 h4{
-    font-family: 'Inconsolata', monospace;
     text-decoration: underline;
 }
 #description{
