@@ -1,0 +1,44 @@
+.nav-bar{
+    background-image: linear-gradient(#f28093,#f49445);
+    z-index: 10;
+}
+.nav-bar a:link, .nav-bar a:visited{
+    text-decoration: none;
+    color: #f6f1ee;
+}
+a:link, a:visited{
+    color:#f28093;
+    font-family: 'Inconsolata', monospace;
+}
+.main-content{
+    padding-top: 14em;
+    padding-bottom: 10em;
+    background-color: #f6f1ee;
+    margin-bottom: 5em;
+}
+.title h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    padding-bottom: 1.5rem;
+}
+.title{
+   margin-left: 2em;
+}
+.main-content p{
+    font-size:1.5em;
+}
+.main-content img{
+    box-shadow: 2px 2px 6px #929292;
+    transform: rotate(3deg);
+    z-index: 0;
+}
+.page p, h5, h6{
+    font-family: 'Karla', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Inconsolata', monospace;
+   
+}
+h4{
+    text-decoration: underline;
+}
