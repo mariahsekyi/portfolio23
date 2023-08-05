@@ -1,6 +1,9 @@
 .description{
     padding-top: 8em;
 }
+.container-fluid{
+    background-color: #282828;
+}
 #profile{
     height:20em;
     width: 15em;
@@ -10,22 +13,27 @@
     padding-bottom: 5em;
     font-family: 'Karla', sans-serif;
 }
-.about-nav a:link, a:visited{
+.about-nav a:link, .about-nav a:visited{
     text-decoration: underline;
-    color:#4c5a0d;
+    color:#ffce84;
 }
 .description h1, .main-content h1, .more h3{
     font-family: 'Inconsolata', monospace;
-    color: #4c5a0d;
+    color: #f28093;
 }
 .description p, .main-content p, .more li{
     font-family: 'Karla', sans-serif;
     font-size: 17px;
+    color:#f6f1ee;
 }
-.nav-bar{
+.more a:visited, .more a:link{
+    color:#f6f1ee;
+} 
+
+/* .nav-bar{
     background-image: linear-gradient(#f28093,#f49445);
 }
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
-}
+} */

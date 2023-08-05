@@ -1,13 +1,19 @@
 .main-content{
     padding-top: 5em;
     height: 41em;
-    background-image: linear-gradient(#f28093,#f49445);
-    color: #EEEEEE;
-   
+    background-color: #181818;
+}
+.container-fluid{
+    background-color: #282828;
 }
 .big-words{
     margin-left:3em;
     font-family: 'Inconsolata', serif;
+    background-image: radial-gradient(#f28093,#f49445);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent; 
 }
 .big-words h1{
     font-size: 100px;
@@ -16,12 +22,13 @@
 .big-words h6{
     font-size: 38px;
 }
+
 .proj-card{
     margin: 3em;
-    background-color: #ffffff;
+    background-color: #404040;
     border-radius: 2em;
     align-items: center;
-    box-shadow: 0px 12px 20px #929292;
+   
 }
 .proj-card img{
     margin-top: 1em;
@@ -30,9 +37,9 @@
     height: 50%;
     width: 100%;
 } 
-.proj-card a:link, a:visited{
+.proj-card a:link, .proj-card a:visited{
     text-decoration: none;
-    color:#1f1f1f;
+    color:#ffffff;
 }
 .proj-card h2{
     margin-left: .5em;
@@ -43,14 +50,14 @@
     font-family: 'Karla', sans-serif;
 }
 .down-nav{
-    background-color: #f49445;
+    background-color: #181818;
     margin-bottom: 7em;
     padding-bottom: 1em;
 }
-.nav-bar{
-    background-color: #f6f1ee;
-}
-.nav-bar a:link, a:visited{
+/* .nav-bar{
+    background-color: #181818
+} */
+/* .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
-    color: #1f1f1f;
-}
+    color: #f6f1ee;
+} */

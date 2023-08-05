@@ -1,11 +1,11 @@
-.nav-bar{
+/* .nav-bar{
     background-image: linear-gradient(#f28093,#f49445);
     z-index: 10;
 }
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
-}
+} */
 a:link, a:visited{
     color:#f28093;
     font-family: 'Inconsolata', monospace;

@@ -1,11 +1,13 @@
 .nav-bar{
-    background-image: linear-gradient(#f28093,#f49445);
     z-index: 10;
 }
-.nav-bar a:link, .nav-bar a:visited{
+.container-fluid{
+    background-color: #282828;
+}
+/* .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
-}
+}  */
 a:link, a:visited{
     color:#f28093;
     font-family: 'Inconsolata', monospace;
@@ -13,22 +15,27 @@ a:link, a:visited{
 .main-content{
     padding-top: 14em;
     padding-bottom: 10em;
-    background-color: #f6f1ee;
+    background-color: #181818;
     margin-bottom: 5em;
 }
 .title h1{
     font-family: 'Inconsolata', monospace;
     font-size: 4em;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    background-image: radial-gradient(#f28093,#f49445);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent; 
 }
 .title{
    margin-left: 2em;
 }
 .main-content p{
     font-size:1.5em;
+    color: #f6f1ee;
 }
 .main-content img{
-    box-shadow: 2px 2px 6px #929292;
     transform: rotate(3deg);
     z-index: 0;
 }
@@ -37,10 +44,13 @@ a:link, a:visited{
 }
 h1, h2, h3, h4{
     font-family: 'Inconsolata', monospace;
-   
 }
 h4{
     text-decoration: underline;
+    color:#ffffff;
+}
+.page{
+    color:#f6f1ee;
 }
 #description{
     text-align: center;
@@ -58,11 +68,13 @@ h4{
 }
 .page p, h5, h6{
     font-family: 'Karla', sans-serif;
+    color: #f6f1ee;
 }
 h5, h6{
     margin: 1em 1em 1em 0em;
     padding-left: 1em;
     border-left: .3rem solid #f49445;
+    color:#ffffff;
 }
 #survey img{
     position: relative;
