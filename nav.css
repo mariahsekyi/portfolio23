@@ -3,7 +3,7 @@
     width: 100%;
     height:4em;
     font-family: 'Inconsolata', monospace;
-    background-color: #121212;
+    background-color: transparent;
 }
 .nav-buttons{
     padding-top: 1em;
@@ -20,5 +20,5 @@ nav > .col-8{
 }
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
-    color: #f6f1ee;
+    color: #15006d;
 }
