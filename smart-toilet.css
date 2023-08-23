@@ -156,4 +156,23 @@ ul{
     margin-bottom:2em;
     margin-left:6em;
 }
-
+#color-block3{
+    background-color: #8fa1ff;
+    height:23em;
+    margin-top:3em;
+    margin-bottom: 6em;
+}
+#mid-fid2{
+    width: 40em;
+    position:relative;
+    bottom:4em;
+    left: 1em;
+}
+#mid-fid3{
+    width:45em;
+    position:relative;
+    /* bottom:10em; */
+}
+#wrap-up{
+    padding-bottom: 5em;
+}
