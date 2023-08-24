@@ -16,6 +16,7 @@ a:link, a:visited{
     font-family: 'Inconsolata', monospace;
     font-size: 4em;
     padding-bottom: 1.5rem;
+    color:#3843d0;
 }
 .title{
    margin-left: 2em;
@@ -87,12 +88,12 @@ h5{
 }
 .gge-pages{
     height: 35em;
-    width:30em;
+    width:32em;
     margin:1.5em;
 }
 .gge-short-pages{
-    height: 22.5em;
-    width: 30em;
+    height: 23em;
+    width: 32em;
     margin:1.5em;
 }
 #scheme{
