@@ -77,3 +77,25 @@ h5{
     right: 2em;
     margin-right:4em;
 }
+#mid-mockups img{
+    height: 30em;
+    width: 20em;
+}
+#mid-mockups{
+    margin-bottom: 3em;
+    margin-top:3em;
+}
+.gge-pages{
+    height: 35em;
+    width:30em;
+    margin:1.5em;
+}
+.gge-short-pages{
+    height: 22.5em;
+    width: 30em;
+    margin:1.5em;
+}
+#scheme{
+    height: 25em;
+    width:20em;
+}
