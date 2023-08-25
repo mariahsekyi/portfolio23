@@ -14,7 +14,7 @@ a:link, a:visited{
 }
 .main-content{
     padding-top: 10em;
-    padding-bottom: 8em;
+    padding-bottom: 2.5em;
     background-color: #f4f6ff;
     margin-bottom: 5em;
 }
@@ -36,7 +36,7 @@ a:link, a:visited{
     z-index: 5;
 }
 #summary{
-    text-align: center;
+    margin-top: 3em;
 }
 h1, h2, h3, h4{
     font-family: 'Inconsolata', monospace;
@@ -165,7 +165,7 @@ ul{
     width: 40em;
     position:relative;
     bottom:4em;
-    left: 1em;
+    left: 2em;
 }
 #mid-fid3{
     width:45em;
@@ -174,4 +174,19 @@ ul{
 }
 #wrap-up{
     padding-bottom: 5em;
+}
+#section-nav{
+    background-color: #3843d0;
+    height: 2em;
+}
+#section-nav a{
+    color:#ffffff;
+    text-decoration: none;
+}
+#section-nav a:hover{
+    text-decoration: underline;
+}
+.position-sticky{
+    top:4em;
+    z-index: 20;
 }

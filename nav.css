@@ -3,14 +3,14 @@
     width: 100%;
     height:4em;
     font-family: 'Inconsolata', monospace;
-    background-color: transparent;
+    background-color: #f4f6ff;
 }
 .nav-buttons{
     padding-top: 1em;
 }
 #linkedin{
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 nav > .col-8{
     padding-left: 2em;
