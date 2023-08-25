@@ -5,7 +5,7 @@ a:link, a:visited{
 }
 .main-content{
     padding-top: 10em;
-    padding-bottom: 8em;
+    padding-bottom: 4.5em;
     background-color: #f4f6ff;
     margin-bottom: 5em;
 }
@@ -47,6 +47,7 @@ h4{
 }
 #overview{
     padding-bottom: 3em;
+    padding-top: 3em;
 }
 .sketch{
     width: 15em;
@@ -99,4 +100,19 @@ h5{
 #scheme{
     height: 25em;
     width:20em;
+}
+#section-nav{
+    background-color: #3843d0;
+    height: 2em;
+}
+#section-nav a{
+    color:#ffffff;
+    text-decoration: none;
+}
+#section-nav a:hover{
+    text-decoration: underline;
+}
+.position-sticky{
+    top:4em;
+    z-index: 20;
 }
