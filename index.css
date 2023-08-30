@@ -53,6 +53,9 @@
     margin-bottom: 7em;
     padding-bottom: 1em; 
 }
+h1{
+    font-family: 'Inconsolata', serif;
+}
 /* .nav-bar{
     background-color: #181818
 } */
