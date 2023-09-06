@@ -26,8 +26,15 @@
     background-color: #ffffff;
     border-radius: 2em;
     align-items: center;
+    padding-bottom:1em;
 }
-.proj-card img{
+.place-holder{
+    margin: 3em;
+    border-radius: 2em;
+    align-items: center;
+    padding-bottom:1em;
+}
+.proj-img{
     margin-top: 1em;
     margin-bottom: 2em;
     border-radius: 1em;
@@ -37,6 +44,9 @@
 .proj-card a:link, .proj-card a:visited{
     text-decoration: none;
     color: #15006d;
+}
+.proj-card a:hover{
+    text-decoration: underline;
 }
 .proj-card h2{
     margin-left: .5em;
@@ -55,6 +65,11 @@
 }
 h1{
     font-family: 'Inconsolata', serif;
+}
+.tags img{
+    height:1em;
+    width:1em;
+ 
 }
 /* .nav-bar{
     background-color: #181818

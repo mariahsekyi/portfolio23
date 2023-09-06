@@ -1,0 +1,44 @@
+.nav-bar{
+    z-index: 10;
+}
+.container-fluid{
+    background-color: #f4f6ff;
+}
+a:link, a:visited{
+    color:#6471b3;
+    font-family: 'Inconsolata', monospace;
+}
+.main-content{
+    padding-top: 6em;
+    padding-bottom: 9em;
+   
+    margin-bottom: 5em;
+}
+.title h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    padding-bottom: 1rem;
+    color: #3843d0;
+}
+.title{
+   margin-left: 2em;
+}
+.main-content p{
+    font-size:1.5em;
+    color: #282828;
+}
+.main-content img{
+    transform: rotate(3deg);
+    z-index: 5;
+    position:absolute;
+    bottom: 10em;
+}
+h4{
+    border-left: .3rem solid #3843d0;
+    margin: 1em 1em 1em 0em;
+    padding-left: .5em;
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    font-family: 'Karla', sans-serif;
+}

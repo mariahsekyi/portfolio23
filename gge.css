@@ -98,8 +98,10 @@ h5{
     margin:1.5em;
 }
 #scheme{
-    height: 25em;
+    height: 20em;
     width:20em;
+    position: relative;
+    bottom:2em;
 }
 #section-nav{
     background-color: #3843d0;
