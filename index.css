@@ -3,6 +3,12 @@
     height: 40em;
     background-color: #3843d0;
 }
+.main-content img{
+    position: relative;
+    left: 9em;
+    top: 4em;
+    z-index: 1;
+}
 .container-fluid{
     background-color: #f4f6ff;
 }
@@ -74,9 +80,9 @@ h1{
     width:1em;
  
 }
-/* .nav-bar{
-    background-color: #181818
-} */
+.nav-bar{
+    z-index: 10;
+}
 /* .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
