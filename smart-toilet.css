@@ -14,7 +14,7 @@ a:link, a:visited{
 }
 .main-content{
     padding-top: 10em;
-    padding-bottom: 2em;
+    padding-bottom: 7em;
     margin-bottom: 5em;
 }
 .title h1{
@@ -31,7 +31,6 @@ a:link, a:visited{
     color: #282828;
 }
 .main-content img{
-    transform: rotate(3deg);
     z-index: 5;
 }
 #summary{

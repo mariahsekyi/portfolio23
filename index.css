@@ -6,7 +6,7 @@
 .main-content img{
     position: relative;
     left: 9em;
-    top: 4em;
+    bottom: 7em;
     z-index: 1;
 }
 .container-fluid{

@@ -19,14 +19,12 @@ a:link, a:visited{
     color:#3843d0;
 }
 .title{
-   margin-left: 2em;
+   margin-left: 5em;
 }
 .main-content p{
     font-size:1.5em;
 }
 .main-content img{
-    box-shadow: 2px 2px 6px #929292;
-    transform: rotate(3deg);
     z-index: 0;
 }
 .page p, h5, h6{
