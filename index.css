@@ -83,6 +83,11 @@ h1{
 .nav-bar{
     z-index: 10;
 }
+#pixelcomp{
+    position: relative;
+    top: 6em;
+    left: 2em;
+}
 /* .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
