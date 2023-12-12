@@ -1,0 +1,39 @@
+p{
+    font-family: 'Karla', sans-serif;
+}
+h1{
+    font-family: 'Inconsolata', monospace;
+}
+.container-fluid{
+    background-color: #f4f6ff;
+}
+a:link, a:visited{
+    color:#6471b3;
+    font-family: 'Inconsolata', monospace;
+}
+.main-content{
+    padding-top: 6em;
+    padding-bottom: 4em;
+    margin-bottom: 5em;
+}
+.title h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4em;
+    padding-bottom: 1rem;
+    color: #3843d0;
+}
+
+.main-content p{
+    font-size:1.5em;
+    color: #282828;
+}
+.main-content img{
+    z-index: 5;
+    position:absolute;
+    bottom: 10em;
+    transform: rotate(6deg);
+}
+.breakdowns{
+    margin-top: 2em;
+    width:90em;
+}
