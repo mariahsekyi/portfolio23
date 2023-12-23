@@ -3,7 +3,7 @@
     width: 100%;
     height:4em;
     font-family: 'Karla', sans-serif;
-    background-color: #f4f6ff;
+    background-color: #f0ede6;
 }
 .nav-buttons{
     padding-top: 1em;
@@ -20,5 +20,5 @@ nav > .col-8{
 }
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
-    color: #15006d;
+    color: #162114;
 }

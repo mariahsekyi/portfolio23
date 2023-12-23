@@ -7,9 +7,8 @@
         <title>Maria Sekyi</title>
         <link rel="stylesheet" href="index.css"/>
         <link rel="stylesheet" href="nav.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"/>
-        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     </head>
     <body>
         <div class="container-fluid m-auto">
@@ -42,61 +41,65 @@
             </nav>
             <div class="row main-content">
                 <div class="col-6 align-self-center big-words">
-                    <h6>Hi! My name is Maria Sekyi</h6>
-                    <h1>I am a Human-Centered UX Researcher and Designer</h1>
-                    <h6>Using my educational foundation in human-computer interaction, anthropology, and business
-                        I bring a unique skill set to my role as a UX researcher and designer. 
-                    </h6>
+                    <h6 id="hi"></h6>
+                    <h1 id="me"></h1>       
                 </div>
                 <div class="col-3">
                     <img src="imgs/computerimg2.png" height="450vw" width="450vw" alt="computer img" id="pixelcomp">
                 </div>
             </div>
-            <div class="row down-nav">
-                <div class="col text-center">
-                    <a href="#projects">
-                        <img src="imgs/down-arrow.png" alt="down arrow" height="50vw" width="50vw"> 
-                    </a>
-                </div>  
-            </div>
-            <div class="row justify-content-center" id="projects">
-                <div class="col-3 proj-card" >
-                    <a href="icebrekr.html">
-                        <img src="imgs/Icebrekr Redesign Filler.png" alt="blank picture" class="img-responsive proj-img">
-                        <h2>IceBrekr UX Redesign</h2>
-                        <p>Redesigning the user experience for the IceBrekr App</p>
-                    </a>
-                    <p><img src="imgs/price-tag.png" alt="project tag" class="tags"> UX Research, UX Design</p>
+           
+            <div class="row"> 
+                <div class="col-8 learnwithme">
+                    <p class="learnwithme">Continuous learning is my main priority throughout my career, and I do that best through hands on 
+                        projects and prompts. <br><br>Join me as I hone my UX research and design skills through contracted, 
+                        personal, and pro-Bono work.  </p>
+                    <a href="#project-section">Take a look</a>
                 </div>
-                <div class="col-3 proj-card" >
+                <div class="col" id="filler0">
+                    <!-- <img src="imgs/scrolltosee.png" alt="scroll to see my work"> -->
+                    <!-- <a href="#projects"><h3>My Projects</h3></a> -->
+                </div>
+            </div>
+
+            
+            <div class="row justify-content-center" id="project-section">
+                <div class="col-7 project">
+                        <a href="icebrekr.html">
+                            <h2>IceBrekr UX Redesign</h2>
+                        </a>
+                        <p>Redesigning the user experience for the IceBrekr App </p>
+                        <p class="skills">Skill set: UX Research, UX Design</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-7 project">
                     <a href="nes-redesign.html">
-                        <img src="imgs/artboard-21-653aa722da23653d3e30a40c@2x.png" alt="blank picture" class="img-responsive proj-img">
                         <h2>NES Redesign</h2>
-                        <p>Redesigning the North East Stars Montessori School website</p>
                     </a>
-                    <p><img src="imgs/price-tag.png" alt="project tag" class="tags"> UX Design, Market Analysis</p>
-                </div>
-                
+                    <p>Redesigning the North East Stars Montessori School website</p>
+                    <p class="skills">Skill set: UX Design, Market Analysis</p>
             </div>
-            <div class="row justify-content-center" id="projects">
-                <div class="col-3 proj-card" >
+               </div>
+            <div class="row justify-content-center">
+                <div class="col-7 project">
                     <a href="smart-toilet.html">
-                        <img src="imgs/mockup1.png" alt="smart toilet mock up" class="img-responsive proj-img">
-                        <h2>Smart Toilet</h2>
-                        <p>Health tracking and illness prevention via speculative smart toilet technology</p>
+                        <h2>Smart Toilet App</h2>
                     </a>
-                    <p><img src="imgs/price-tag.png" alt="project tag" class="tags">UX Research, UX Design</p>
+                    <p>Health tracking and illness prevention via speculative smart toilet technology </p>
+                    <p class="skills">Skill set: UX Research, UX Design, Market Research</p>
                 </div>
-                <div class="col-3 proj-card" >
-                    <a href="gge.html">
-                        <img src="imgs/mockup2.png" alt="gge mock ups" class="img-responsive proj-img" width="100%" height="50%">
-                        <h2>Girls Gotta Eat</h2>
-                        <p>Recipe website design with high protein meals for women on the go</p>
-                    </a>   
-                    <p><img src="imgs/price-tag.png" alt="project tag" class="tags"> UX Design </p>
-                </div>
-                
             </div>
+            <div class="row justify-content-center">
+                <div class="col-7 project">
+                    <a href="gge.html">
+                        <h2>Girls Gotta Eat</h2>
+                    </a>
+                    <p>Recipe website design with high protein meals for women on the go</p>
+                    <p class="skills">Skill set: UX Design, UI Design</p>
+                </div>
+            </div>
+                
             <!-- <div class="row">
                 <div class="col-2"></div>
                 <div class="col">
@@ -118,5 +121,4 @@
              -->
         </div>
     </body>
-    <script src="script.js"></script>
-</html>
+    <script src="java.js"></script>
