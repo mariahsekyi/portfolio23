@@ -88,14 +88,22 @@ h1{
 }
 .whatsux{
     background-color:#FFEACF;
-    padding:1em;
+    /* padding:1em; */
 }
-.whatsux h3, .whatsux p{
+.whatsux h2, .whatsux p{
     width: 80%;
     font-family: 'dm' , 'Times New Roman', Times, serif;
-    margin-left:2em;
-    font-size: 1.6em;
+    /* margin-left:2em; */
     color:#17350D;
+}
+.whatsux h2{
+    margin-top: 2em;
+    margin-left:2em;
+}
+.whatsux p{
+    font-size: 1.6em;
+    margin-left: 2.5em;
+    margin-bottom: 2em;
 }
 #filler0{
     background-color: #E73D00;
