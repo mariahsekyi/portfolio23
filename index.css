@@ -86,20 +86,28 @@ h1{
     /* padding-bottom: 2em;  */
     color:#E73D00;
 }
+.whatsux{
+    background-color:#FFEACF;
+    padding:1em;
+}
+.whatsux h3, .whatsux p{
+    width: 80%;
+    font-family: 'dm' , 'Times New Roman', Times, serif;
+    margin-left:2em;
+    font-size: 1.6em;
+    color:#17350D;
+}
 #filler0{
     background-color: #E73D00;
+}
+#filler1{
+    background-color: #17350D;
 }
 #filler0 img{
     width:100%;
     height:100%;
 }
-#filler0 h3{
-    position: relative;
-    bottom: 6.5em;
-    left: 5.5em;
-    font-family:'dm' , 'Times New Roman', Times, serif;
-    color: #f0ede6;
-}
+
 
 /* #filler0 a:link, #filler0 a:visited{
     color:#f0ede6;
