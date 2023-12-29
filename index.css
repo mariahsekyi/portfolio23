@@ -17,7 +17,8 @@
 .main-content{
     padding-top: 5em;
     height: 40em;
-    background-color: #17350d;
+    background-color: #161a1a;
+    /* cerulian: #1282A2; */
 }
 .main-content img{
     position: relative;
@@ -26,12 +27,12 @@
     z-index: 1;
 }
 .container-fluid{
-    background-color: #f0ede6;
+    background-color: #f7efe5;
 }
 .big-words{
     margin-left:4em;
     font-family: 'dm';
-    color: #ffffff;
+    color: #a3a3d6;
     background-size: 100%;
     margin-right:5em;
 }
@@ -44,10 +45,10 @@
     font-size: 24px;
 }
 
-.down-nav{
+/* .down-nav{
     background-color: #17350d;
     padding-bottom: 1em; 
-}
+} */
 h1{
     font-family: 'dm';
 }
@@ -59,42 +60,53 @@ h1{
 .nav-bar{
     z-index: 10;
 }
-#pixelcomp{
-    position: relative;
-    top: 6em;
-    left: 2em;
+#mainprofile{
+    position: absolute;
+    top: 1em;
+    left: -2em;
+    background-color: #a3a3d6;
+
 }
 /* .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
     color: #f6f1ee;
 } */
 .learnwithme{
-    background-color: #FFC6B6;
+    background-color: #f7efe5;
     padding:1em;
 }
+
 .learnwithme p{
     width: 80%;
     font-family: 'dm' , 'Times New Roman', Times, serif;
     margin-left:2em;
     font-size: 1.6em;
-    color:#E73D00;
+    color:#232B2B;
 }
 .learnwithme a, .learnwithme a:visited {
-    width:80%;
-    font-family: 'karla';
+    font-family: 'karlaBold';
     margin-left:4.8em;
-    /* padding-bottom: 2em;  */
-    color:#E73D00;
+    padding: .75em 1.5em .75em 1.5em;
+    background-color: #D5A021;
+    border-radius: 3px;
+    text-decoration: none;
+    color:#1c2020;
+    position: relative;
+    bottom: .5em;
+    
+}
+.learnwithme a:hover{
+    box-shadow: 3px 3px 5px #c0c5c5;
 }
 .whatsux{
-    background-color:#FFEACF;
+    background-color:#1c2020
     /* padding:1em; */
 }
 .whatsux h2, .whatsux p{
     width: 80%;
     font-family: 'dm' , 'Times New Roman', Times, serif;
     /* margin-left:2em; */
-    color:#17350D;
+    color:#f7efe5;
 }
 .whatsux h2{
     margin-top: 2em;
@@ -106,10 +118,10 @@ h1{
     margin-bottom: 2em;
 }
 #filler0{
-    background-color: #E73D00;
+    background-color: #D5A021;
 }
 #filler1{
-    background-color: #17350D;
+    background-color: #a3a3d6;
 }
 #filler0 img{
     width:100%;
@@ -122,19 +134,31 @@ h1{
 } */
 .project a,.project a:visited{
     font-family:'dm' , 'Times New Roman', Times, serif;
-    color: #204E14;
+    color: #1c2020;
 }
 .project p{
     font-family: 'karlaBold';
 }
+.project h1{
+    font-family: "dm";
+    font-size: 45px;
+}
 .project{
     padding-top: 1.5em;
-    border-bottom:1px solid #204E14;
+    border-bottom:1px solid #232B2B;
 }
 .skills{
-    color:#E73D00;
+    color:#D5A021;
     font-family: 'karla';
 }
 #project-section{
-    margin-top:6em;
+    margin-top:2em;
+}
+#profile-background{
+    background-color: #a3a3d6;
+    position: relative;
+    left:5em;
+    top: 3em;
+    width: 18em;
+    height: 23em;
 }

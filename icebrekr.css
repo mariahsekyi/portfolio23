@@ -1,39 +1,96 @@
+@font-face {
+    font-family: 'dm';
+    src: url(DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'karla';
+    src: url(Karla-Regular.ttf);
+}
+@font-face {
+    font-family: "karlaBold";
+    src: url(Karla-Medium.ttf);
+}
+@font-face {
+    font-family: 'karlaItalic';
+    src: url(Karla-Italic.ttf);
+}
 p{
-    font-family: 'Karla', sans-serif;
+    font-family: 'karla', sans-serif;
 }
-h1{
-    font-family: 'Inconsolata', monospace;
+h1, h4, h2, h3{
+    font-family: 'dm', 'Times New Roman', Times, serif;
 }
+
 .container-fluid{
-    background-color: #f4f6ff;
+    background-color: #f7efe5;
 }
-a:link, a:visited{
-    color:#6471b3;
-    font-family: 'Inconsolata', monospace;
+.main-content a:link,.main-content a:visited{
+    font-family: 'karlaBold';
+    color:#D5A021;
+    
 }
 .main-content{
     padding-top: 6em;
     padding-bottom: 4em;
-    margin-bottom: 5em;
+    background-color: #161a1a;
 }
 .title h1{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'dm', 'Times New Roman', Times, serif;
     font-size: 4em;
     padding-bottom: 1rem;
-    color: #3843d0;
+    color: #a3a3d6;
 }
 
 .main-content p{
     font-size:1.5em;
-    color: #282828;
+    color: #a3a3d6;
 }
 .main-content img{
-    z-index: 5;
     position:absolute;
     bottom: 10em;
-    transform: rotate(6deg);
+    /* left: 2em; */
 }
 .breakdowns{
     margin-top: 2em;
-    width:90em;
+    width:15em;
+    height:32em;
 }
+#summary{
+    z-index: 10;
+    color: #f7efe5;
+    background-color: #1c2020;
+}
+#summary .col-7{
+    position: relative;
+    z-index: 10;
+    top: 3em;
+    padding-bottom: 6em;
+}
+#summary1{
+    color: #f7efe5;
+    background-color: #1c2020;
+    padding:0 2em 12em 1em;
+}
+#color-block1{
+    background-color:#D5A021;
+    height: 10em;
+    width:25em;
+    position: relative;
+    top: 12em;
+    right: 32em;
+    z-index: 5;
+}
+#explain1 h2{
+font-size: 60px;
+position: relative;
+bottom: .85em;
+color: #a3a3d6;
+}
+#explain1 p{
+    width:25em;
+    display: inline-block;
+    position: relative;
+    top:-3em;
+}
+
+

@@ -1,6 +1,6 @@
 var i=0;
 var txt='Hi! My name is Maria Sekyi';
-var speed = 90;
+var speed = 60;
 
 function typing(){
    if (i < txt.length){
@@ -12,7 +12,7 @@ function typing(){
 typing();
 
 var j=0;
-var txt1="I am a Human-Centered UX Researcher and Designer. This is my portfolio.";
+var txt1="I am a Human-Centered UX Researcher and Designer. This is my portfolio :)";
 function typing1(){
     if (j<txt1.length){
         document.getElementById('me').innerHTML += txt1.charAt(j);
