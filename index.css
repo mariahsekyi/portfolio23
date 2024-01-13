@@ -135,7 +135,9 @@ h1{
 .project a,.project a:visited{
     font-family:'dm' , 'Times New Roman', Times, serif;
     color: #1c2020;
+
 }
+
 .project p{
     font-family: 'karlaBold';
 }
@@ -144,16 +146,26 @@ h1{
     font-size: 45px;
 }
 .project{
-    padding-top: 1.5em;
-    border-bottom:1px solid #232B2B;
+    color: #1c2020;
+    padding-top: 1em;
+    /* trying out animation */
+    background: linear-gradient(to right, #D5A021 50%, #f7efe5 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .6s ease-out;
 }
+.project:hover{
+    background-position: left bottom;
+}
+
+
 .skills{
-    color:#D5A021;
+    color:#f7efe5;
     font-family: 'karla';
 }
-#project-section{
+/* #project-section{
     margin-top:2em;
-}
+} */
 #profile-background{
     background-color: #a3a3d6;
     position: relative;
