@@ -45,10 +45,7 @@
     font-size: 24px;
 }
 
-/* .down-nav{
-    background-color: #17350d;
-    padding-bottom: 1em; 
-} */
+
 h1{
     font-family: 'dm';
 }
@@ -96,7 +93,7 @@ h1{
     
 }
 .learnwithme a:hover{
-    box-shadow: 3px 3px 5px #c0c5c5;
+    background-color: #c5931f;
 }
 .whatsux{
     background-color:#1c2020
@@ -173,4 +170,23 @@ h1{
     top: 3em;
     width: 18em;
     height: 23em;
+}
+footer{
+    background-color: #161a1a;
+    height: 15em;
+    padding-left: 1em;
+}
+footer img{
+    height: 2em;
+    width:2em;
+    margin: .5em;
+}
+#logo{
+    margin-top:4em;
+    margin-bottom: 2em;
+    width: 12em;
+    height:4.5em;
+}
+footer .col-3{
+    text-align: center;
 }
