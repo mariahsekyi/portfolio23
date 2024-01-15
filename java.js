@@ -21,3 +21,4 @@ function typing1(){
     }
 }
 typing1();
+

@@ -1,39 +1,83 @@
+@font-face {
+    font-family: 'dm';
+    src: url(DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'karla';
+    src: url(Karla-Regular.ttf);
+}
+@font-face {
+    font-family: "karlaBold";
+    src: url(Karla-Medium.ttf);
+}
+@font-face {
+    font-family: 'karlaItalic';
+    src: url(Karla-Italic.ttf);
+}
 .description{
-    padding-top: 8em;
+    padding-top: 6em;
+    color: #f7efe5;
+    font-family: 'dm', 'Times New Roman', Times, serif;
+    padding-bottom: 2em;
+    background-color:#1c2020;
 }
 .container-fluid{
-    background-color: #f4f6ff;
-}
-#profile{
-    height:20em;
-    width: 15em;
-}
-.about-nav{
-    padding-top:2em;
-    padding-bottom: 5em;
-    font-family: 'Karla', sans-serif;
-}
-.about-nav a:link, .about-nav a:visited{
-    text-decoration: underline;
-    color:#6471b3;
-}
-.description h1, .main-content h1, .more h3{
-    font-family: 'Inconsolata', monospace;
-    color: #15006d;
-}
-.description p, .main-content p, .more li{
-    font-family: 'Karla', sans-serif;
-    font-size: 17px;
-    color:#282828;
+    background-color: #f7efe5;
 }
 .more a:visited, .more a:link{
-    color:#6471b3;
+    color:#1c2020;
 } 
-
-/* .nav-bar{
-    background-image: linear-gradient(#f28093,#f49445);
+.more h3{
+    font-family: 'dm', 'Times New Roman', Times, serif;
 }
-.nav-bar a:link, .nav-bar a:visited{
-    text-decoration: none;
-    color: #f6f1ee;
+.more li{
+    font-family: 'karlaBold',Arial, Helvetica, sans-serif;
+}
+.study-icon{
+    height:5em;
+    width:5em;
+}
+.study h5{
+    font-family: 'dm', 'Times New Roman', Times, serif;
+}
+.study img{
+    margin-top:1.5em;
+    margin-bottom: .5em;
+}
+.study p{
+    font-family: 'karlaBold', Arial, Helvetica, sans-serif;
+}
+.study {
+    background-color: #a3a3d6;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+}
+#lines{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+/* #color-block{
+
 } */
+.collapsible{
+    width: 45em;
+    border:none;
+    background-color: #D5A021;
+    font-family: 'karlaBold',Arial, Helvetica, sans-serif;
+    color:#f7efe5;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:1em;
+    margin-bottom:1em;
+    text-align: left;
+    border-radius: 5px;
+}
+.active, .collapsible:hover {
+    background-color: #c5931f;
+}
+.content{
+    display: none;
+    overflow:hidden;
+    font-family: 'karla',Arial, Helvetica, sans-serif;
+}
