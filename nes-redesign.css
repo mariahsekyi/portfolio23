@@ -1,26 +1,42 @@
+@font-face {
+    font-family: 'dm';
+    src: url(DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'karla';
+    src: url(Karla-Regular.ttf);
+}
+@font-face {
+    font-family: "karlaBold";
+    src: url(Karla-Medium.ttf);
+}
+@font-face {
+    font-family: 'karlaItalic';
+    src: url(Karla-Italic.ttf);
+}
 .nav-bar{
     z-index: 10;
 }
 .container-fluid{
-    background-color: #f4f6ff;
+    background-color: #F7EFE5;
 }
 a:link, a:visited{
-    color:#6471b3;
-    font-family: 'Inconsolata', monospace;
+    color:#D5A021;
+    font-family: 'karlaBold',Arial, Helvetica, sans-serif;
 }
 .main-content{
     padding-top: 6em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     margin-bottom: 5em;
 }
 .title h1{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'dm', 'Times New Roman', Times, serif;
     font-size: 4em;
     padding-bottom: 1rem;
-    color: #3843d0;
+    color: #1c2020;
 }
 .title{
-   margin-left: 4em;
+   margin-left: 6em;
 }
 .main-content p{
     font-size:1.5em;
@@ -29,23 +45,38 @@ a:link, a:visited{
 .main-content img{
     z-index: 5;
     position:absolute;
-    bottom: 10em;
+    bottom: 12em;
+}
+#summary{
+    background-color: #a3a3d6;
+    margin-top:2em;
+}
+#summary-details{
+    background-color: #a3a3d6;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#primary-roll{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 h4{
-    border-left: .3rem solid #3843d0;
     margin: 1em 1em 1em 0em;
     padding-left: .5em;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'dm' ,'Times New Roman', Times, serif;
 }
 p{
-    font-family: 'Karla', sans-serif;
+    font-family: 'karla', Arial, Helvetica, sans-serif;
 }
 h1{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'dm', 'Times New Roman', Times, serif;
 }
 .breakdowns{
-    margin-top: 2em;
-    width:90em;
+    width:100%;
+    padding: 0px;
+}
+#all-breakdowns{
+    padding: 0px; 
 }
 #section-nav{
     background-color: #3843d0;
