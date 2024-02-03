@@ -3,7 +3,7 @@
     width: 100%;
     height:4em;
     font-family: 'Karla', sans-serif;
-    background-color: transparent;
+    background-color: #f7efe5;
     z-index: 20;
 }
 .nav-buttons{
@@ -16,10 +16,8 @@
 nav > .col-8{
     padding-left: 2em;
 }
-.nav-bar a:hover{
-    text-decoration: underline;
-}
+
 .nav-bar a:link, .nav-bar a:visited{
     text-decoration: none;
-    color: #a3a3d6;
+    color: #1c2020;
 }
