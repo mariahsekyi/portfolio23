@@ -22,29 +22,40 @@ h1, h4, h2, h3{
 }
 
 .container-fluid{
-    background-color: #161a1a;
+    background-color: #f7efe5;
     padding:0;
 }
-.main-content a:link,.main-content a:visited{
-    font-family: 'karlaBold';
-    color:#D5A021;
-    
+
+.bigbutton:link,.bigbutton:visited{
+    font-family: 'karla';
+    background: transparent;
+    border: 2px solid #a3a3d6;
+    padding:1em 3em 1em 3em;
+    border-radius: 15px;
+    color: #f7efe5;
+    text-decoration: none;
+}
+.bigbutton:hover{
+    background-color:#a3a3d6 ;
+    color: #1c2020;
+    text-decoration: none;
 }
 .main-content{
     padding-top: 6em;
-    padding-bottom: 4em;
+    
     background-color: #161a1a;
 }
 .title h1{
     font-family: 'dm', 'Times New Roman', Times, serif;
     font-size: 4em;
     padding-bottom: 1rem;
-    color: #a3a3d6;
+    color: #f7efe5;
 }
 
 .main-content p{
     font-size:1.5em;
-    color: #a3a3d6;
+    color: #f7efe5;
+    margin-bottom: 2em;
 }
 .main-content img{
     position:absolute;
@@ -56,22 +67,18 @@ h1, h4, h2, h3{
     z-index: 10;
     color: #f7efe5;
     background-color: #1c2020;
+    padding-top: 3em;
+    margin-bottom: 3em;
 }
-#summary .col-7{
-    position: relative;
-    z-index: 10;
-    top: 3em;
+#summary section{
+    padding-bottom: 2em;
+}
+#summary .col-6{
+    z-index: 10; 
     padding-bottom: 6em;
+    padding-right:4em;
 }
-#summary1{
-    color: #f7efe5;
-    background-color: #1c2020;
-    padding:0 2em 10em 1em;
-}
-#summary1 .col-3{
-    border-right: 1px solid #f7efe5;
-    border-left: 1px solid #f7efe5;   
-}
+
 #color-block1{
     background-color:#D5A021;
     height: 10em;
@@ -81,108 +88,35 @@ h1, h4, h2, h3{
     right: 32em;
     z-index: 5;
 }
-#color-block2{
-    background-color:#D5A021;
-    height: 12em;
-    width:5em;
-    position: absolute;
-    bottom: -3em;
-    right: 0em;
-    z-index: 15;
-}
-#color-block3{
-    background-color:#f7efe5;
-    height: 2.75em;
-    width:15em;
-    position: absolute;
-    z-index: 7;
-}
-#color-block4{
-    background-color:#D5A021;
-    height: 1em;
-    width:12em;
-    top:-.70em;
-    position: absolute;
-    z-index: 7;
-}
-#color-block5{
-    background-color:#a3a3d6;
-    height: 6em;
-    width:22em;
-    right:0em;
-    top:-.70em;
-    position: absolute;
-    z-index: 7;
-}
-
-#explain1titles, #explain3titles, #explain2titles{
-    position: relative;
-    bottom:5em;
-}
-#explain1titles h2{
-    font-family: 'dm', 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: #a3a3d6;
-    position: relative;
-    top: .50em; 
-    margin-left:.50em;
-    z-index: 10;
-}
-#explain2 img, #explain3 img, #explain4 img{
-    height: 48em;
-    width: 100%;
-}
-#explain1 img{
-    height: 42em;
-    width: 100%;
-}
-#explain2 .col, #explain3 .col, #explain1 .col, #explain4 .col{
-    padding:0;
-}
-#explain2titles h2{
-    font-family: 'dm', 'Times New Roman', Times, serif;
-    font-size: 60px;
+#rootcause{
     color: #1c2020;
-    position: relative;
-    margin-left:.50em;
-    z-index:10;
 }
-#explain3titles h2{
-    font-family: 'dm', 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: #f7efe5;
-    position: relative;
-    margin-left:.50em;
-    z-index: 10;
+#rootcause img{
+    width: 100%;
+    margin-bottom: 3em;
 }
-#explain4titles h2{
-    font-family: 'dm', 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: #a3a3d6;
-    position: relative;
-    bottom: 2em; 
-    margin-left:1em;
-    z-index: 10;
+.yellow-highlight{
+    background-color:#D5A021;
+    padding: 2px;
 }
-#explain1{
-    position: relative;
-    bottom:5em;
-    z-index:1;
-   
+.quotes{
+    display: flex;
+    justify-content: space-around;
 }
-#explain2{
-    position: relative;
-    bottom:10em;
-    z-index:1;
+.quoteblock{
+    margin: 1em;
+    width: 40%;
+    text-align: center;
+    background-color: #fdfaf7;
+    padding: 2em;
+    box-shadow: 2px 2px 4px #D5A021;
 }
-#explain3{
-    position: relative;
-    bottom:15em;
-    z-index:1;
+.methodologies{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'karla';
 }
-#explain4{
-    position: relative;
-    bottom:20em;
-    z-index:1;
+.methblock{
+    width: 40%;
+    margin-right: 2em;
 }
-
