@@ -102,6 +102,7 @@ h1, h4, h2, h3{
 .quotes{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2em;
 }
 .quoteblock{
     margin: 1em;
@@ -115,8 +116,20 @@ h1, h4, h2, h3{
     display: flex;
     justify-content: space-between;
     font-family: 'karla';
+    padding-bottom: 2em;
+    margin-bottom: 4em;
+    border-bottom: 1px solid #a3a3d6;
 }
 .methblock{
     width: 40%;
     margin-right: 2em;
+}
+.methblock li{
+    list-style-type: none;
+}
+.shorter{
+    width: 75%;
+}
+.note{
+    font-size: .75em;
 }
