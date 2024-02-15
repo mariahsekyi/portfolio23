@@ -42,7 +42,7 @@ h1, h4, h2, h3{
 }
 .main-content{
     padding-top: 6em;
-    
+    padding-bottom: 5em;
     background-color: #161a1a;
 }
 .title h1{
@@ -118,7 +118,6 @@ h1, h4, h2, h3{
     font-family: 'karla';
     padding-bottom: 2em;
     margin-bottom: 4em;
-    border-bottom: 1px solid #a3a3d6;
 }
 .methblock{
     width: 40%;
@@ -128,7 +127,7 @@ h1, h4, h2, h3{
     list-style-type: none;
 }
 .shorter{
-    width: 75%;
+    width: 85%;
 }
 .note{
     font-size: .75em;
@@ -167,4 +166,25 @@ h1, h4, h2, h3{
 }
 .gap{
     margin-bottom: 5em;
+}
+.maps img{
+    margin-left: 3em;
+}
+
+.brainstorming{
+    display: flex;
+    align-items: center;
+}
+.brainstorming img{
+    width: 30em;
+    height:23em;
+    margin-left: 2em;
+}
+.flex{
+    display: flex;
+}
+.sketchpages img{
+    width: 10;
+    height: 20em;
+    margin: 2em;
 }
