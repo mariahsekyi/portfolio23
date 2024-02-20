@@ -108,8 +108,8 @@ h4, h2, h3{
     border-radius: 20px;
 }
 .yellow-highlight{
-    background-color:#D5A021;
-    padding: 2px;
+    background-color:#d59f21cc ;
+    margin-bottom: 3px;
 }
 .quotes{
     display: flex;

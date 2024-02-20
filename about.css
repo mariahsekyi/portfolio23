@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'dm';
-    src: url(DMSerifDisplay-Regular.ttf);
+    font-family: 'playfairBold';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'playfair';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 500;
 }
 @font-face {
     font-family: 'karla';
@@ -17,18 +23,30 @@
 .description{
     padding-top: 6em;
     color: #f7efe5;
-    font-family: 'dm', 'Times New Roman', Times, serif;
     padding-bottom: 2em;
     background-color:#1c2020;
+}
+.text{
+    font-family: 'karla', Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-family: 'playfairBold', 'Times New Roman', Times, serif;
+}
+.title{
+    font-family: 'playfair', 'Times New Roman', Times, serif;
 }
 .container-fluid{
     background-color: #f7efe5;
 }
 .more a:visited, .more a:link{
-    color:#1c2020;
+    color:#D5A021;
+    text-decoration: none;
 } 
+.more a:hover{
+    text-decoration: underline;
+}
 .more h3{
-    font-family: 'dm', 'Times New Roman', Times, serif;
+    font-family: 'playfair', 'Times New Roman', Times, serif;
 }
 .more li{
     font-family: 'karlaBold',Arial, Helvetica, sans-serif;
@@ -38,7 +56,7 @@
     width:5em;
 }
 .study h5{
-    font-family: 'dm', 'Times New Roman', Times, serif;
+    font-family: 'playfair', 'Times New Roman', Times, serif;
 }
 .study img{
     margin-top:1.5em;
@@ -63,18 +81,19 @@
 .collapsible{
     width: 45em;
     border:none;
-    background-color: #D5A021;
-    font-family: 'karlaBold',Arial, Helvetica, sans-serif;
-    color:#f7efe5;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    font-family: 'playfair',Arial, Helvetica, sans-serif;
+    color:#D5A021;
     padding-top:1em;
     padding-bottom:1em;
     padding-left:1em;
     margin-bottom:1em;
     text-align: left;
-    border-radius: 5px;
+    
 }
 .active, .collapsible:hover {
-    background-color: #c5931f;
+    text-decoration: underline;
 }
 .content{
     display: none;

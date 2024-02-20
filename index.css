@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'dm';
-    src: url(DMSerifDisplay-Regular.ttf);
+    font-family: 'playfairBold';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'playfair';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 500;
 }
 @font-face {
     font-family: 'karla';
@@ -13,6 +19,15 @@
 @font-face {
     font-family: 'karlaItalic';
     src: url(Karla-Italic.ttf);
+}
+.text{
+    font-family: 'karla', Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-family: 'playfairBold', 'Times New Roman', Times, serif;
+}
+.title{
+    font-family: 'playfair', 'Times New Roman', Times, serif;
 }
 .main-content{
     padding-top: 5em;
@@ -31,7 +46,7 @@
 }
 .big-words{
     margin-left:4em;
-    font-family: 'dm';
+    font-family: 'playfairBold', 'Times New Roman', Times, serif;
     color: #f7efe5;
     background-size: 100%;
     margin-right:5em;
@@ -45,10 +60,6 @@
     font-size: 24px;
 }
 
-
-h1, h4{
-    font-family: 'dm';
-}
 .tags img{
     height:1em;
     width:1em;
@@ -73,7 +84,6 @@ h1, h4{
 
 .learnwithme p{
     width: 90%;
-    font-family: 'dm' , 'Times New Roman', Times, serif;
     font-size: 1.6em;
     color:#232B2B;
 }
@@ -84,7 +94,6 @@ h1, h4{
 }
 .whatsux h2, .whatsux p{
     width: 80%;
-    font-family: 'dm' , 'Times New Roman', Times, serif;
     /* margin-left:2em; */
     color:#1c2020;
 }
@@ -118,7 +127,6 @@ h1, h4{
     color:#f0ede6;
 } */
 .project a,.project a:visited{
-    font-family:'dm' , 'Times New Roman', Times, serif;
     color: #f7efe5;
     text-decoration: none;
 }
@@ -133,7 +141,6 @@ h1, h4{
   
 }
 .project h2{
-    font-family: "dm";
     font-size: 45px;
     padding-left:10%;
     
@@ -146,8 +153,8 @@ h1, h4{
     align-items: center;
     background-color:#292b2b;
     margin-bottom: 3em;
-    padding-top: 1em;
-    padding-bottom:1em;
+    padding-top: 2em;
+    padding-bottom:2em;
     border-radius: 16px;
 }
 .project:hover{
@@ -186,7 +193,6 @@ footer .col-3{
 #working-on{
     background-color: #1c2020;
     color: #f7efe5;
-    font-family: 'dm';
     padding: 3em 0 3em 0;
     padding-left:5em; 
 }
