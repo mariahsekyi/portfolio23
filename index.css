@@ -224,3 +224,9 @@ footer .col-3{
 .note{
     font-size: .75em;
 }
+.alert h1, .alert p{
+    color: #f7efe5;
+}
+.alert p{
+    font-family: 'karlaBold';
+}
