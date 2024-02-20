@@ -124,7 +124,7 @@ h1, h4{
 }
 .project a:hover{
     color:#a3a3d6;
-    text-decoration: underline;
+
 }
 
 .project p{
@@ -147,7 +147,7 @@ h1, h4{
     background-color:#292b2b;
     margin-bottom: 3em;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom:1em;
     border-radius: 16px;
 }
 .project:hover{

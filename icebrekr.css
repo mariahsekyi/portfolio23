@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'dm';
-    src: url(DMSerifDisplay-Regular.ttf);
+    font-family: 'playfairBold';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'playfair';
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 500;
 }
 @font-face {
     font-family: 'karla';
@@ -17,10 +23,12 @@
 p{
     font-family: 'karla', sans-serif;
 }
-h1, h4, h2, h3{
-    font-family: 'dm', 'Times New Roman', Times, serif;
+h1{
+    font-family:'playfairBold', 'Times New Roman', Times, serif;
 }
-
+h4, h2, h3{
+    font-family: 'playfair', 'Times New Roman', Times, serif;
+}
 .container-fluid{
     background-color: #f7efe5;
     padding:0;
@@ -46,7 +54,8 @@ h1, h4, h2, h3{
     background-color: #161a1a;
 }
 .title h1{
-    font-family: 'dm', 'Times New Roman', Times, serif;
+    font-family: 'playfairBold', 'Times New Roman', Times, serif;
+    font-weight: 700px;
     font-size: 4em;
     padding-bottom: 1rem;
     color: #f7efe5;
