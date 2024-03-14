@@ -194,6 +194,7 @@ h4, h2, h3{
 .brainstorming{
     display: flex;
     align-items: center;
+    
 }
 .brainstorming img{
     width: 30em;
